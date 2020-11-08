@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import axios from "axios";
 
 import {
   Tooltip,
   Box,
-  Link,
   Card,
   CardActionArea,
   CardActions,
@@ -60,7 +59,9 @@ const RepoDetail = () => {
   }, [id]);
 
   return (
-    <div style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}>
+    <div
+      style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
+    >
       {Object.keys(repoDetail).length !== 0 &&
       repoDetail.constructor === Object ? (
         <Card>
@@ -95,7 +96,7 @@ const RepoDetail = () => {
               </Tooltip>
             </Box>
             <Box alignSelf="flex-end">
-              <Link href="/">
+              <Link to="/">
                 <Tooltip title="Github Link">
                   <IconButton aria-label="share">Back to Home</IconButton>
                 </Tooltip>
@@ -104,7 +105,7 @@ const RepoDetail = () => {
           </CardActions>
         </Card>
       ) : (
-        <Link href="/">
+        <Link to="/">
           <Tooltip title="Github Link">
             <IconButton aria-label="share">Back to Home</IconButton>
           </Tooltip>
