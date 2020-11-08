@@ -59,7 +59,7 @@ const RepoDetail = () => {
     }
   }, [id]);
 
-  let homeURL = "https://shrishrimalshah-raj.github.io/client-app-using-github-api";
+  let homeURL = "https://shrishrimalshah-raj.github.io/client-app-using-github-api/";
   return (
     <div
       style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
