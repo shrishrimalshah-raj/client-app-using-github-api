@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/client-app-using-github-api/static/css/main.ec8e1564.chunk.css",
+    "main.js": "/client-app-using-github-api/static/js/main.33677d97.chunk.js",
+    "main.js.map": "/client-app-using-github-api/static/js/main.33677d97.chunk.js.map",
+    "runtime-main.js": "/client-app-using-github-api/static/js/runtime-main.72430ff7.js",
+    "runtime-main.js.map": "/client-app-using-github-api/static/js/runtime-main.72430ff7.js.map",
+    "static/js/2.9e7cd0b8.chunk.js": "/client-app-using-github-api/static/js/2.9e7cd0b8.chunk.js",
+    "static/js/2.9e7cd0b8.chunk.js.map": "/client-app-using-github-api/static/js/2.9e7cd0b8.chunk.js.map",
+    "static/js/3.5efb986e.chunk.js": "/client-app-using-github-api/static/js/3.5efb986e.chunk.js",
+    "static/js/3.5efb986e.chunk.js.map": "/client-app-using-github-api/static/js/3.5efb986e.chunk.js.map",
+    "index.html": "/client-app-using-github-api/index.html",
+    "static/css/main.ec8e1564.chunk.css.map": "/client-app-using-github-api/static/css/main.ec8e1564.chunk.css.map",
+    "static/js/2.9e7cd0b8.chunk.js.LICENSE.txt": "/client-app-using-github-api/static/js/2.9e7cd0b8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72430ff7.js",
+    "static/js/2.9e7cd0b8.chunk.js",
+    "static/css/main.ec8e1564.chunk.css",
+    "static/js/main.33677d97.chunk.js"
+  ]
+}
