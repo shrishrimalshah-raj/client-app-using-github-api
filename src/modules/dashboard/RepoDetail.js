@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import axios from "axios";
 
 import {
+  Link,
   Tooltip,
   Box,
   Card,
@@ -58,6 +59,7 @@ const RepoDetail = () => {
     }
   }, [id]);
 
+  let homeURL = "https://shrishrimalshah-raj.github.io/client-app-using-github-api";
   return (
     <div
       style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
@@ -96,7 +98,7 @@ const RepoDetail = () => {
               </Tooltip>
             </Box>
             <Box alignSelf="flex-end">
-              <Link to="/">
+              <Link href={homeURL}>
                 <Tooltip title="Github Link">
                   <IconButton aria-label="share">Back to Home</IconButton>
                 </Tooltip>
@@ -105,7 +107,7 @@ const RepoDetail = () => {
           </CardActions>
         </Card>
       ) : (
-        <Link to="/">
+        <Link href={homeURL}>
           <Tooltip title="Github Link">
             <IconButton aria-label="share">Back to Home</IconButton>
           </Tooltip>
